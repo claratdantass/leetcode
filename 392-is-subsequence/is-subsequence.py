@@ -9,8 +9,5 @@ class Solution(object):
                 j += 1
             i += 1
 
-        if len(s) == len(sub):
-            return True
-        else:
-            return False
+        return len(s) == len(sub)
 
