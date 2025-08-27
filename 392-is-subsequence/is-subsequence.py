@@ -1,8 +1,5 @@
 class Solution(object):
     def isSubsequence(self, s, t):
-        if len(s) > len(t):
-            return False
-
         sub = ""
         j = 0
         i = 0
@@ -11,7 +8,7 @@ class Solution(object):
                 sub += t[i]
                 j += 1
             i += 1
-        
+
         if len(s) == len(sub):
             return True
         else:
