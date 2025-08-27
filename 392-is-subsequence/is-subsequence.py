@@ -11,12 +11,6 @@ class Solution(object):
                 sub += t[i]
                 j += 1
             i += 1
-
-        #while j <= (len(s) - 1):
-        #    for i in range(len(t)):
-        #        if t[i] == s[j]:
-        #            sub += t[i]
-        #            j+= 1
         
         if len(s) == len(sub):
             return True
