@@ -11,5 +11,5 @@ class Solution(object):
             elif out[i] % 5 == 0:
                 out[i] = "Buzz"
             else:
-                out[i] = str(out[i])  # garante que tudo vira string
+                out[i] = str(out[i])  
         return out
